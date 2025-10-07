@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --outline: 1px dotted green;
+    font-family: "SUSE Mono", sans-serif;
+    
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    background-image: url("https://filmhubnorth.org.uk/rails/active_storage/disk/eyJfcmFpbHMiOnsiZGF0YSI6eyJrZXkiOiJodDJ5N2ZrbGE0a3lld2Rsc2lxcGhpcTJzMmI5IiwiZGlzcG9zaXRpb24iOiJpbmxpbmU7IGZpbGVuYW1lPVwiU2hvd3Jvb21XZWIuanBnXCI7IGZpbGVuYW1lKj1VVEYtOCcnU2hvd3Jvb21XZWIuanBnIiwiY29udGVudF90eXBlIjoiaW1hZ2UvanBlZyIsInNlcnZpY2VfbmFtZSI6ImxvY2FsIn0sInB1ciI6ImJsb2Jfa2V5In19--f988fceb6dcb300423f6e929a0c92527f2d5995f/ShowroomWeb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+label{
+    font-size: x-large;
+    color: white;
+}
+
+h1{
+    padding: 0 0 1rem 0;
+    color: white;
+}
+    
+form{
+    display: flex;
+    flex-direction: column;
+    padding:1rem 5rem 2rem 5rem;
+    background: radial-gradient(circle, #000000 0%, #aa0000 100%);
+    width: 40% ;
+}
+#user{
+    padding: 0 0 1rem 0;
+}
+#pass{
+    padding: 0 0 1rem 0;
+}
+button{
+    height: 2rem;
+    background: black;
+    color: white;
+}
